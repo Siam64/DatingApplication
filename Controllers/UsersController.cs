@@ -5,9 +5,8 @@ using WebApplication1.Entity;
 
 namespace WebApplication1.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")] //this is comment
-    public class UsersController(DataContext Context) : ControllerBase
+
+    public class UsersController(DataContext Context) : BaseApiController
     {
         [HttpGet]
         public async Task <ActionResult<IEnumerable<AppUser>>> GetUsers()

@@ -10,11 +10,9 @@ namespace WebApplication1.Entity
         public required string UserName { get; set; }
 
         [Required]
-        [Phone]
-        public required string PhoneNumber { get; set; }
+        public required byte[] PasswordHash { get; set; }
 
         [Required]
-        [EmailAddress]
-        public required string Email { get; set; }
+        public required byte[] PasswordSalt { get; set; }
     }
 }
