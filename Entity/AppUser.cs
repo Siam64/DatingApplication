@@ -6,13 +6,10 @@ namespace WebApplication1.Entity
     {
         public int ID { get; set; }
 
-        [Required]
         public required string UserName { get; set; }
 
-        [Required]
         public required byte[] PasswordHash { get; set; }
 
-        [Required]
         public required byte[] PasswordSalt { get; set; }
     }
 }

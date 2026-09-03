@@ -552,7 +552,6 @@ F:\Samiul Alim\Github Projects\DatingApplication\obj\Debug\net10.0\staticwebasse
 F:\Samiul Alim\Github Projects\DatingApplication\obj\Debug\net10.0\staticwebassets.development.json
 F:\Samiul Alim\Github Projects\DatingApplication\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 F:\Samiul Alim\Github Projects\DatingApplication\obj\Debug\net10.0\swae.build.ex.cache
-F:\Samiul Alim\Github Projects\DatingApplication\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 F:\Samiul Alim\Github Projects\DatingApplication\obj\Debug\net10.0\WebAppli.7D14BD69.Up2Date
 F:\Samiul Alim\Github Projects\DatingApplication\obj\Debug\net10.0\WebApplication1.dll
 F:\Samiul Alim\Github Projects\DatingApplication\obj\Debug\net10.0\refint\WebApplication1.dll
