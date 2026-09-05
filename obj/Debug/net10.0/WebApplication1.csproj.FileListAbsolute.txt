@@ -365,7 +365,6 @@ E:\Samiul Alim\Project\Dating Application\DatingApplication\obj\Debug\net10.0\st
 E:\Samiul Alim\Project\Dating Application\DatingApplication\obj\Debug\net10.0\staticwebassets.development.json
 E:\Samiul Alim\Project\Dating Application\DatingApplication\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 E:\Samiul Alim\Project\Dating Application\DatingApplication\obj\Debug\net10.0\swae.build.ex.cache
-E:\Samiul Alim\Project\Dating Application\DatingApplication\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 E:\Samiul Alim\Project\Dating Application\DatingApplication\obj\Debug\net10.0\WebAppli.7D14BD69.Up2Date
 E:\Samiul Alim\Project\Dating Application\DatingApplication\obj\Debug\net10.0\WebApplication1.dll
 E:\Samiul Alim\Project\Dating Application\DatingApplication\obj\Debug\net10.0\refint\WebApplication1.dll
@@ -558,3 +557,4 @@ F:\Samiul Alim\Github Projects\DatingApplication\obj\Debug\net10.0\refint\WebApp
 F:\Samiul Alim\Github Projects\DatingApplication\obj\Debug\net10.0\WebApplication1.pdb
 F:\Samiul Alim\Github Projects\DatingApplication\obj\Debug\net10.0\WebApplication1.genruntimeconfig.cache
 F:\Samiul Alim\Github Projects\DatingApplication\obj\Debug\net10.0\ref\WebApplication1.dll
+E:\Samiul Alim\Project\Dating Application\DatingApplication\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
