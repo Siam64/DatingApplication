@@ -36,5 +36,27 @@ namespace WebApplication1.Controllers
 
             return user;
         }
+
+        [HttpPost("Login")]
+        public async Task<ActionResult<AppUser>> Login(LoginDto Loginrequest)
+        {
+            if (Loginrequest is null || string.IsNullOrWhiteSpace(Loginrequest.Username) || string.IsNullOrWhiteSpace(Loginrequest.Password))
+                return BadRequest("Username and password are required.");
+
+            var user = await context.Users.FirstOrDefaultAsync(u => u.UserName.ToLower() == Loginrequest.Username.ToLower());
+            if (user is null)
+                return Unauthorized("Invalid username or password");
+
+            using var hmac = new HMACSHA512(user.PasswordSalt);
+            var computedHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(Loginrequest.Password));
+
+            for (int i = 0; i < computedHash.Length; i++)
+            {
+                if (computedHash[i] != user.PasswordHash[i])
+                    return Unauthorized("Invalid username or password");
+            }
+
+            return Ok(new { message = "Login successful", user });
+        }
     }
 }
