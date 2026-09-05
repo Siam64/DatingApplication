@@ -7,3 +7,5 @@ bin/Debug/net10.0/WebApplication1.exe
 /.vs
 /.vs
 /bin
+/.vs
+*.bin

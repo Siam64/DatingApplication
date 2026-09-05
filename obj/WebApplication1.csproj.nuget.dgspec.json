@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Samiul Alim\\Github Projects\\DatingApplication\\WebApplication1.csproj": {}
+    "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\WebApplication1.csproj": {}
   },
   "projects": {
-    "F:\\Samiul Alim\\Github Projects\\DatingApplication\\WebApplication1.csproj": {
+    "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Samiul Alim\\Github Projects\\DatingApplication\\WebApplication1.csproj",
+        "projectUniqueName": "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "F:\\Samiul Alim\\Github Projects\\DatingApplication\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "F:\\Samiul Alim\\Github Projects\\DatingApplication\\obj\\",
+        "projectPath": "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\siama\\.nuget\\packages\\",
+        "outputPath": "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\siama\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
