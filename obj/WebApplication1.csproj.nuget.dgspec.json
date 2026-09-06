@@ -88,6 +88,10 @@
             "SQLitePCLRaw.lib.e_sqlite3": {
               "target": "Package",
               "version": "[2.1.12, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.22.0, )"
             }
           },
           "imports": [
