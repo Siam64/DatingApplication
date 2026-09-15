@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|e:\\samiul alim\\project\\dating application\\datingapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|e:\\samiul alim\\project\\dating application\\datingapplication\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|e:\\samiul alim\\project\\dating application\\datingapplication\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -50,16 +58,8 @@
       "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:migrations\\20260501085140_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|e:\\samiul alim\\project\\dating application\\datingapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|e:\\samiul alim\\project\\dating application\\datingapplication\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|e:\\samiul alim\\project\\dating application\\datingapplication\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|e:\\samiul alim\\project\\dating application\\datingapplication\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,7 +81,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -89,20 +89,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TokenService.cs",
               "DocumentMoniker": "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\Service\\TokenService.cs",
               "RelativeDocumentMoniker": "Service\\TokenService.cs",
               "ToolTip": "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\Service\\TokenService.cs",
               "RelativeToolTip": "Service\\TokenService.cs",
-              "ViewState": "AgIAAAUAAACAPDMzMzMbwBkAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAACAzczMzMwnwCEAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-06T16:06:05.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\Interface\\ITokenService.cs",
               "RelativeDocumentMoniker": "Interface\\ITokenService.cs",
@@ -110,12 +110,11 @@
               "RelativeToolTip": "Interface\\ITokenService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T16:03:58.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-06T16:03:58.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\Entity\\DTOs\\LoginDto.cs",
               "RelativeDocumentMoniker": "Entity\\DTOs\\LoginDto.cs",
@@ -127,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\siama\\AppData\\Local\\SourceServer\\33a89cc606432f328e9ad9f89b39da5bd4cb86219d690f03eee08d7c689aa84f\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\siama\\AppData\\Local\\SourceServer\\33a89cc606432f328e9ad9f89b39da5bd4cb86219d690f03eee08d7c689aa84f\\Controllers\\UsersController.cs [Read Only]",
@@ -138,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\Entity\\DTOs\\RegisterDto.cs",
               "RelativeDocumentMoniker": "Entity\\DTOs\\RegisterDto.cs",
@@ -150,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "20260829075821_UpdateTablw.cs",
               "DocumentMoniker": "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\Migrations\\20260829075821_UpdateTablw.cs",
               "RelativeDocumentMoniker": "Migrations\\20260829075821_UpdateTablw.cs",
@@ -162,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "UsersController.cs",
               "DocumentMoniker": "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
@@ -174,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AccountController.cs",
               "DocumentMoniker": "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
@@ -182,12 +181,11 @@
               "RelativeToolTip": "Controllers\\AccountController.cs",
               "ViewState": "AgIAAB4AAADAzczMzMwnwCgAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T05:03:26.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T05:03:26.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "DataContextModelSnapshot.cs",
               "DocumentMoniker": "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\Migrations\\DataContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\DataContextModelSnapshot.cs",
@@ -199,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "20260501085140_InitialCreate.cs",
               "DocumentMoniker": "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\Migrations\\20260501085140_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20260501085140_InitialCreate.cs",
@@ -211,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "AppUser.cs",
               "DocumentMoniker": "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\Entity\\AppUser.cs",
               "RelativeDocumentMoniker": "Entity\\AppUser.cs",
@@ -223,19 +221,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-11T07:53:47.37Z"
+              "WhenOpened": "2026-04-11T07:53:47.37Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "BaseApiController.cs",
               "DocumentMoniker": "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\Controllers\\BaseApiController.cs",
               "RelativeDocumentMoniker": "Controllers\\BaseApiController.cs",
@@ -247,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 1,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -255,7 +254,8 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-28T15:34:03.183Z"
+              "WhenOpened": "2026-04-28T15:34:03.183Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -295,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Samiul Alim\\Project\\Dating Application\\DatingApplication\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -303,8 +303,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T16:15:37.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T16:15:37.343Z"
             }
           ]
         }
