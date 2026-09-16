@@ -4,16 +4,17 @@ using System.Security.Cryptography;
 using WebApplication1.Data;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Entity.DTOs;
+using WebApplication1.Interface;
 
 namespace WebApplication1.Controllers
 {
-    public class AccountController(DataContext context) : BaseApiController
+    public class AccountController(DataContext context, ITokenService tokenService) : BaseApiController
     {
         // DTO for registration - bind from JSON body
         //public sealed record RegisterDto(string UserName, string Password);
 
         [HttpPost("Register")]
-        public async Task<ActionResult<AppUser>> Register(RegisterDto request)
+        public async Task<ActionResult<UserDTO>> Register(RegisterDto request)
         {
             if (request is null || string.IsNullOrWhiteSpace(request.Username) || string.IsNullOrWhiteSpace(request.Password))
                 return BadRequest("Username and password are required.");
@@ -34,7 +35,11 @@ namespace WebApplication1.Controllers
             context.Users.Add(user);
             await context.SaveChangesAsync();
 
-            return user;
+            return new UserDTO
+            {
+                Username = user.UserName,
+                Token = tokenService.CreateToken(user)
+            };
         }
 
         [HttpPost("Login")]
