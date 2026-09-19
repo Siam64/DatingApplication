@@ -1,11 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Data;
 using WebApplication1.Entity;
 
 namespace WebApplication1.Controllers
 {
-
+    //[Authorize]
     public class UsersController(DataContext Context) : BaseApiController
     {
         [HttpGet]
@@ -15,6 +16,7 @@ namespace WebApplication1.Controllers
             return Ok(users);
         }
 
+        [Authorize]
         [HttpGet("{id}")]  
         public async Task <ActionResult<AppUser>> GetUser(int id)
         {
@@ -50,6 +52,8 @@ namespace WebApplication1.Controllers
         //    return Ok(new { message = "User updated successfully", user });
         //}
 
+
+        
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {

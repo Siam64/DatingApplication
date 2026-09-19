@@ -41,7 +41,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApplication1.Entity.AppUser",
+        "Type": "WebApplication1.Entity.DTOs.UserDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",

@@ -1,18 +1,12 @@
-using Microsoft.EntityFrameworkCore;
-using WebApplication1.Data;
-using WebApplication1.Interface;
-using WebApplication1.Service;
+using WebApplication1.Extension_Methods;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
-builder.Services.AddDbContext<DataContext>(opt => opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddApplicationServices(builder.Configuration);
+builder.Services.AddIdentityServices(builder.Configuration);
 
-builder.Services.AddScoped<ITokenService, TokenService>();
 
 var app = builder.Build();
 
@@ -25,7 +19,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200", "https://localhost:4200"));
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 

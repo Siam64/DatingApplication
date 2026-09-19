@@ -558,3 +558,4 @@ F:\Samiul Alim\Github Projects\DatingApplication\obj\Debug\net10.0\WebApplicatio
 F:\Samiul Alim\Github Projects\DatingApplication\obj\Debug\net10.0\WebApplication1.genruntimeconfig.cache
 F:\Samiul Alim\Github Projects\DatingApplication\obj\Debug\net10.0\ref\WebApplication1.dll
 E:\Samiul Alim\Project\Dating Application\DatingApplication\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+E:\Samiul Alim\Project\Dating Application\DatingApplication\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
